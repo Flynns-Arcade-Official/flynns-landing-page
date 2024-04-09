@@ -1,0 +1,90 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: "Koulen", sans-serif;
+}
+
+@layer utilities {
+}
+
+/* Font koulen */
+@font-face {
+  font-family: "Koulen";
+  font-weight: 400;
+  src: url("/fonts/Koulen/Koulen-Regular.ttf") format("woff2");
+}
+
+/* Font manrope */
+@font-face {
+  font-family: "Manrope";
+  font-weight: 400;
+  src: url("/fonts/Manrope/Manrope-Regular.ttf") format("woff2");
+}
+@font-face {
+  font-family: "Manrope";
+  font-weight: 500;
+  src: url("/fonts/Manrope/Manrope-Medium.ttf") format("woff2");
+}
+@font-face {
+  font-family: "Manrope";
+  font-weight: 600;
+  src: url("/fonts/Manrope/Manrope-Semibold.ttf") format("woff2");
+}
+@font-face {
+  font-family: "Manrope";
+  font-weight: 700;
+  src: url("/fonts/Manrope/Manrope-Bold.ttf") format("woff2");
+}
+
+/* Font ChakraPetch */
+@font-face {
+  font-family: "ChakraPetch";
+  font-weight: 400;
+  src: url("/fonts/ChakraPetch/ChakraPetch-Regular.ttf") format("woff2");
+}
+@font-face {
+  font-family: "ChakraPetch";
+  font-weight: 500;
+  src: url("/fonts/ChakraPetch/ChakraPetch-Medium.ttf") format("woff2");
+}
+@font-face {
+  font-family: "ChakraPetch";
+  font-weight: 600;
+  src: url("/fonts/ChakraPetch/ChakraPetch-SemiBold.ttf") format("woff2");
+}
+@font-face {
+  font-family: "ChakraPetch";
+  font-weight: 700;
+  src: url("/fonts/ChakraPetch/ChakraPetch-Bold.ttf") format("woff2");
+}
+
+/* Font PlusJakartaSans */
+@font-face {
+  font-family: "PlusJakartaSans";
+  font-weight: 400;
+  src: url("/fonts/PlusJakartaSans/PlusJakartaSans-Regular.ttf") format("woff2");
+}
+@font-face {
+  font-family: "PlusJakartaSans";
+  font-weight: 500;
+  src: url("/fonts/PlusJakartaSans/PlusJakartaSans-Medium.ttf") format("woff2");
+}
+@font-face {
+  font-family: "PlusJakartaSans";
+  font-weight: 600;
+  src: url("/fonts/PlusJakartaSans/PlusJakartaSans-Semibold.ttf") format("woff2");
+}
+@font-face {
+  font-family: "PlusJakartaSans";
+  font-weight: 700;
+  src: url("/fonts/PlusJakartaSans/PlusJakartaSans-Bold.ttf") format("woff2");
+}
+
+/* Font PaladinsCondensed */
+@font-face {
+  font-family: "PaladinsCondensed";
+  font-weight: 400;
+  src: url("/fonts/PaladinsCondensed/paladinscond.ttf");
+}
